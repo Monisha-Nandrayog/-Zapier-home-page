@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    height: 80px;
+    width: 100%;
+    background-color: white;
+    border: 1px solid grey;
+}
+nav>ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+nav>aside{
+    font-size: large;
+    font-weight: 800;
+    padding: 50px;
+}
+nav>article{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin: 10px;
+}
+nav>article>button{
+    background-color: rgb(250, 109, 27);
+    color: white;
+    border: 1px solid rgb(250, 109, 27);
+    border-radius: 12px;
+    width: 100px;
+    height: 30px;
+    padding-left: 5px;
+}
+.main{
+    height: 80vh;
+    width: 100%;
+    background-color: rgb(250, 109, 27);
+    display: flex;
+}
+.main>.left{
+    height: 100vh;
+    width: 40%;
+    background-color: white;
+}
+.main>.left>h1{
+    font-size: 40px;;
+    font-weight: bolder;
+    text-align: center;
+    position: absolute;
+    top: 30%;
+    left: 10%;
+    padding-bottom: 10px;
+}
+.main>.left>h2{
+    font-size: 40px;
+    color: rgb(250, 109, 27);
+    text-align: center;
+    position: absolute;
+    top: 38%;
+    left: 10%;
+}
+.main>.left>span{
+    font-size: medium;
+    position: absolute;
+    top: 60%;
+    left: 10%;
+    justify-content: center;
+    display: flex;
+    align-items: center;  
+}
+.main>.left>button{
+    color: white;
+    background-color: rgb(29, 32, 36);
+    width: 240px;
+    height: 40px;
+    position: absolute;
+    top: 75%;
+    left: 10%;
+}
+.main>.right{
+    height: 55%;
+    width: 40%;
+    /* border: 1px solid black; */
+    align-items: center;
+    margin: auto;
+}
+.main>.right>figure{
+    background-image: url(./rpic.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+}
+.main>.right>span{
+    position: absolute;
+    top: 75%;
+    left: 55%;
+    font-size: medium;
+    font-weight: bolder;
+    padding-top: 3px;
+}
